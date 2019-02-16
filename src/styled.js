@@ -105,3 +105,10 @@ export const Icon = styled.i`
   color: white;
   font-size: ${props => (props.size ? `${props.size}px` : `32px`)};
 `;
+
+export const Header = () => (
+  <LogoBoxSec>
+    <Logo src="/logo.png" height={100} />
+    <Name>kleen</Name>
+  </LogoBoxSec>
+);

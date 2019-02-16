@@ -19,7 +19,7 @@ export default () => (
     <Input type="text" placeholder="Name" />
     <Input type="text" placeholder="Email" />
     <Input type="text" placeholder="Password" />
-    <SecondaryLink to="/step1">Continue</SecondaryLink>
+    <SecondaryLink to="/menu">Continue</SecondaryLink>
   </React.Fragment>
 );
 
