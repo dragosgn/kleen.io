@@ -78,3 +78,25 @@ export const Button = ({ label, primary, secondary }) => (
     {label}
   </RawButton>
 );
+
+export const Name = styled.p`
+  color: ${props => props.theme.primaryColor};
+  font-size: 26px;
+  font-weight: 600px;
+  text-align: center;
+  margin: 0.5rem;
+`;
+
+export const LogoBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+`;
+
+export const LogoBoxSec = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+`;
+
+export const Logo = styled.img``;

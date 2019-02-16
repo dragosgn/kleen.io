@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import Step1 from "./Step1";
 
 import Home from "./Home";
+import Calendar from "./Calendar";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <Root>
         <Route exact path="/" component={Home} />
         <Route exact path="/step1" component={Step1} />
+        <Route exact path="/calendar" component={Calendar} />
       </Root>
     );
   }

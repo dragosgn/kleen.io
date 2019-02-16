@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Input } from "./styled";
-import { SecondaryLink } from "./styled";
+import { LogoBox, Name, Logo, SecondaryLink, Input } from "./styled";
 
 export default () => (
   <React.Fragment>
@@ -23,22 +22,6 @@ export default () => (
     <SecondaryLink to="/step1">Continue</SecondaryLink>
   </React.Fragment>
 );
-
-const Logo = styled.img``;
-
-const Name = styled.p`
-  color: ${props => props.theme.primaryColor};
-  font-size: 26px;
-  font-weight: 600px;
-  text-align: center;
-  margin: 0.5rem;
-`;
-
-const LogoBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 5rem;
-`;
 
 const SecButtonsRow = styled.div`
   display: flex;
