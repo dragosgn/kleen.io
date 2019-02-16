@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Root>
-        <Button label="Start" />
+        <Button label="Continue" secondary />
       </Root>
     );
   }
