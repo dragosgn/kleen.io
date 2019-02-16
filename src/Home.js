@@ -18,7 +18,7 @@ export default () => (
     </SecButtonsRow>
     <Input type="text" placeholder="Name" />
     <Input type="text" placeholder="Email" />
-    <Input type="text" placeholder="Password" />
+    <Input type="password" placeholder="Password" />
     <SecondaryLink to="/menu">Continue</SecondaryLink>
   </React.Fragment>
 );

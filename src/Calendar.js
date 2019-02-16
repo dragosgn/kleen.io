@@ -2,15 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Calendar from "react-calendar";
 
-import { LogoBoxSec, Name, Logo } from "./styled";
+import { Header } from "./styled";
 import calendar from "./calendar.png";
 
 export default () => (
   <React.Fragment>
-    <LogoBoxSec>
-      <Logo src="/logo.png" height={100} />
-      <Name>kleen.io</Name>
-    </LogoBoxSec>
+    <Header />
     <Calendar />
     <Block>
       <Notification>2 weeks Strike!</Notification>
