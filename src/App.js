@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <Root>
         <Button label="Start" />
-        <Button label="End" />
       </Root>
     );
   }
