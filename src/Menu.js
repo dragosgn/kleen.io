@@ -43,7 +43,7 @@ export default () => (
       <Label>Next Steps</Label>
     </Circle>
     <Circle
-      size={150}
+      size={140}
       style={{ position: "absolute", right: "-2rem", bottom: "-2rem" }}
     >
       <Label fontSize={25}>Help</Label>
