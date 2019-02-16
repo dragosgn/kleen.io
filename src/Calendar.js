@@ -7,7 +7,7 @@ import { LogoBoxSec, Name, Logo } from "./styled";
 export default () => (
   <React.Fragment>
     <LogoBoxSec>
-      <Logo src="/logo.png" height={120} />
+      <Logo src="/logo.png" height={100} />
       <Name>kleen.io</Name>
     </LogoBoxSec>
     <Calendar />

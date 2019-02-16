@@ -100,3 +100,8 @@ export const LogoBoxSec = styled.div`
 `;
 
 export const Logo = styled.img``;
+
+export const Icon = styled.i`
+  color: white;
+  font-size: ${props => (props.size ? `${props.size}px` : `32px`)};
+`;
