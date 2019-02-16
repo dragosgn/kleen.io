@@ -81,7 +81,7 @@ export const Button = ({ label, primary, secondary }) => (
 
 export const Name = styled.p`
   color: ${props => props.theme.primaryColor};
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600px;
   text-align: center;
   margin: 0.5rem;
@@ -106,9 +106,16 @@ export const Icon = styled.i`
   font-size: ${props => (props.size ? `${props.size}px` : `32px`)};
 `;
 
+const LogoBox2 = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const Header = ({ label }) => (
   <LogoBoxSec>
-    <Logo src="/logo.png" height={100} />
+    <LogoBox2>
+      <Logo src="/logo.png" height={80} />
+    </LogoBox2>
     <Name>{label ? label : "kleen"}</Name>
   </LogoBoxSec>
 );
