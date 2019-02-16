@@ -76,7 +76,7 @@ const SmallCircle = styled.div`
   padding: 0.5rem;
   border-radius: 50%;
   border: 1px solid white;
-  box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(69, 91, 99, 0.08);
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(69, 91, 99, 0.08);
 `;
 
 const Label = styled.div`
