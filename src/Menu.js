@@ -28,13 +28,15 @@ export default () => (
         <Label fontSize={23}>Calendar</Label>
       </Circle>
     </Link>
-    <Circle
-      size={210}
-      style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
-    >
-      <img src={friends} height={80} style={{ padding: "0rem" }} />
-      <Label>Community</Label>
-    </Circle>
+    <Link to="/community">
+      <Circle
+        size={210}
+        style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
+      >
+        <img src={friends} height={80} style={{ padding: "0rem" }} />
+        <Label>Community</Label>
+      </Circle>
+    </Link>
     <Circle
       size={230}
       style={{ position: "absolute", right: "-2.5rem", bottom: "9rem" }}

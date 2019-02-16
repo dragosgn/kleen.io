@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { Route } from "react-router-dom";
+
 import Menu from "./Menu";
-
 import Step1 from "./Step1";
-
 import Home from "./Home";
 import Calendar from "./Calendar";
+import Community from "./Community";
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
         <Route exact path="/step1" component={Step1} />
         <Route exact path="/calendar" component={Calendar} />
         <Route exact path="/menu" component={Menu} />
+        <Route exact path="/community" component={Community} />
       </Root>
     );
   }

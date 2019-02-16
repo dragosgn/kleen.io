@@ -106,9 +106,9 @@ export const Icon = styled.i`
   font-size: ${props => (props.size ? `${props.size}px` : `32px`)};
 `;
 
-export const Header = () => (
+export const Header = ({ label }) => (
   <LogoBoxSec>
     <Logo src="/logo.png" height={100} />
-    <Name>kleen</Name>
+    <Name>{label ? label : "kleen"}</Name>
   </LogoBoxSec>
 );
