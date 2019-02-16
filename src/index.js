@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import { ThemeProvider } from "styled-components";
 
@@ -12,7 +13,11 @@ const theme = {
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    <App />
+    <Router>
+      <Route path="/">
+        <App />
+      </Route>
+    </Router>
   </ThemeProvider>,
   document.getElementById("root")
 );

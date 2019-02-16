@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { Route } from "react-router-dom";
+import { SecondaryLink } from "./styled";
 
-import { Button } from "./styled";
+import Home from "./Home";
 
 class App extends Component {
   constructor(props) {
@@ -14,7 +16,8 @@ class App extends Component {
   render() {
     return (
       <Root>
-        <Button label="Continue" secondary />
+        <SecondaryLink to="/home">Continue</SecondaryLink>
+        <Route exact path="/home" component={Home} />
       </Root>
     );
   }
