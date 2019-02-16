@@ -13,38 +13,38 @@ export default () => (
   <React.Fragment>
     <Header />
     <Circle
-      size={120}
+      size={130}
       style={{ position: "absolute", right: "0.75rem", top: "9rem" }}
     >
-      <img src={coins} height={60} style={{ padding: "0.5rem" }} />{" "}
-      <Label fontSize={24}>150</Label>
+      <img src={coins} height={55} style={{ padding: "0.5rem" }} />{" "}
+      <Label fontSize={20}>150</Label>
     </Circle>
     <Link to="/calendar">
       <Circle
         size={170}
         style={{ position: "absolute", left: "-0.5rem", top: "12rem" }}
       >
-        <img src={calendar} height={40} style={{ padding: "0.5rem" }} />
+        <img src={calendar} height={45} style={{ padding: "0.5rem" }} />
         <Label fontSize={23}>Calendar</Label>
       </Circle>
     </Link>
     <Circle
-      size={200}
-      style={{ position: "absolute", left: "-1rem", bottom: "4rem" }}
+      size={210}
+      style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
     >
       <img src={friends} height={80} style={{ padding: "0rem" }} />
       <Label>Friends</Label>
     </Circle>
     <Circle
-      size={240}
-      style={{ position: "absolute", right: "-2rem", bottom: "9rem" }}
+      size={230}
+      style={{ position: "absolute", right: "-2.5rem", bottom: "9rem" }}
     >
       <img src={nextSteps} height={80} />
       <Label>Next Steps</Label>
     </Circle>
     <Circle
       size={140}
-      style={{ position: "absolute", right: "-2rem", bottom: "-2rem" }}
+      style={{ position: "absolute", right: "-0.75rem", bottom: "-1.5rem" }}
     >
       <Label fontSize={25}>Help</Label>
     </Circle>
@@ -76,4 +76,5 @@ const Label = styled.div`
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  position: relative;
 `;
