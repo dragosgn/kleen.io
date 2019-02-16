@@ -7,6 +7,7 @@ import Step1 from "./Step1";
 import Home from "./Home";
 import Calendar from "./Calendar";
 import Community from "./Community";
+import NextSteps from "./NextSteps";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Route exact path="/calendar" component={Calendar} />
         <Route exact path="/menu" component={Menu} />
         <Route exact path="/community" component={Community} />
+        <Route exact path="/next-steps" component={NextSteps} />
       </Root>
     );
   }

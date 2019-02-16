@@ -37,13 +37,15 @@ export default () => (
         <Label>Community</Label>
       </Circle>
     </Link>
-    <Circle
-      size={230}
-      style={{ position: "absolute", right: "-2.5rem", bottom: "9rem" }}
-    >
-      <img src={nextSteps} height={80} />
-      <Label>Next Steps</Label>
-    </Circle>
+    <Link to="/next-steps">
+      <Circle
+        size={230}
+        style={{ position: "absolute", right: "-2.5rem", bottom: "9rem" }}
+      >
+        <img src={nextSteps} height={80} />
+        <Label>Next Steps</Label>
+      </Circle>
+    </Link>
     <Circle
       size={140}
       style={{ position: "absolute", right: "-0.75rem", bottom: "-1.5rem" }}
