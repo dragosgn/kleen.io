@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import React from "react";
 import { Link } from "react-router-dom";
+import logoNew from "./logo_new.png";
 
 const elWidth = 269;
 const elHeight = 36;
@@ -91,12 +92,14 @@ export const LogoBox = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
+  margin-top: 0.5rem;
 `;
 
 export const LogoBoxSec = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 `;
 
 export const Logo = styled.img``;
@@ -114,7 +117,7 @@ const LogoBox2 = styled.div`
 export const Header = ({ label }) => (
   <LogoBoxSec>
     <LogoBox2>
-      <Logo src="/logo.png" height={80} />
+      <Logo src={logoNew} height={80} />
     </LogoBox2>
     <Name>{label ? label : "kleen"}</Name>
   </LogoBoxSec>

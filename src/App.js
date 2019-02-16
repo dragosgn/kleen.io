@@ -31,5 +31,5 @@ const Root = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding: 0.5rem 1.5rem;
+  /* padding: 0.5rem 1.5rem; */
 `;

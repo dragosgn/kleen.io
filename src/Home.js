@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { LogoBox, Name, Logo, SecondaryLink, Input } from "./styled";
+import logoNew from "./logo_new.png";
 
 export default () => (
   <React.Fragment>
     <LogoBox>
-      <Logo src="/logo.png" height={120} />
+      <Logo src={logoNew} height={120} />
       <Name>kleen.io</Name>
     </LogoBox>
     <SecButtonsRow>

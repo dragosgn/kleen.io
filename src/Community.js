@@ -12,22 +12,22 @@ export default () => (
     <Root>
       <Header label={"community"} />
       <Circle
-        size={180}
-        style={{ position: "absolute", left: "3rem", top: "7rem" }}
+        size={170}
+        style={{ position: "absolute", left: "2rem", top: "10rem" }}
       >
-        <img src={message} height={80} style={{ padding: "0rem" }} />
+        <img src={message} height={70} style={{ padding: "0rem" }} />
       </Circle>
       <Circle
         size={210}
-        style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
+        style={{ position: "absolute", right: "-1.5rem", bottom: "10rem" }}
       >
-        <img src={lotus} height={80} style={{ padding: "0rem" }} />¡{" "}
+        <img src={lotus} height={90} style={{ padding: "0rem" }} />
       </Circle>
       <Circle
         size={250}
-        style={{ position: "absolute", left: "-1.5rem", bottom: "1rem" }}
+        style={{ position: "absolute", left: "-1.5rem", bottom: "-1rem" }}
       >
-        <img src={volunteer} height={80} style={{ padding: "0rem" }} />
+        <img src={volunteer} height={100} style={{ padding: "0rem" }} />
       </Circle>
     </Root>
   </React.Fragment>
@@ -54,7 +54,6 @@ const Circle = styled.div`
   align-items: center;
   align-content: center;
   cursor: pointer;
-  box-shadow: 5px -5px rgba(69, 91, 99, 0.08);
 `;
 
 const Label = styled.div`
