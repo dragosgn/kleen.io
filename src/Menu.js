@@ -33,7 +33,7 @@ export default () => (
       style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
     >
       <img src={friends} height={80} style={{ padding: "0rem" }} />
-      <Label>Friends</Label>
+      <Label>Community</Label>
     </Circle>
     <Circle
       size={230}
