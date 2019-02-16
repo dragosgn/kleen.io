@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Calendar from "react-calendar";
 
 import { LogoBoxSec, Name, Logo } from "./styled";
+import calendar from "./calendar.png";
 
 export default () => (
   <React.Fragment>
@@ -16,7 +17,7 @@ export default () => (
     </Block>
     <IconRow>
       <IconBox>
-        <Icon className="far fa-calendar-alt" />
+        <img src={calendar} height={35} />
         <Label>Appointments</Label>
       </IconBox>
       <IconBox>
@@ -25,7 +26,7 @@ export default () => (
       </IconBox>
       <IconBox>
         <Icon className="fas fa-chart-line" />
-        <Label>Process</Label>
+        <Label>Progress</Label>
       </IconBox>
     </IconRow>
   </React.Fragment>
