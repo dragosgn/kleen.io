@@ -13,9 +13,10 @@ const size = 250;
 const doubleSize = size * 2;
 
 const Slogan = styled.div`
-  color: ${props => props.theme.primaryColor};
+  color: ${props => props.theme.secondaryColor};
   font-size: 36px;
   text-align: center;
+  padding-top: 1rem;
 `;
 
 const HalfCircle = styled.div`
