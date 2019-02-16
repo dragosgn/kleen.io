@@ -18,7 +18,7 @@ class App extends Component {
       <Root>
         <Input type="text" placeholder="Name" />
         <Input type="text" placeholder="Email" />
-        <Input type="text" placeholder="Name" />
+        <Input type="text" placeholder="Password" />
         <SecondaryLink to="/home">Continue</SecondaryLink>
 
         <Route exact path="/home" component={Home} />
@@ -36,5 +36,5 @@ const Root = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.5rem;
 `;
