@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { Route } from "react-router-dom";
-import { SecondaryLink } from "./styled";
+import { SecondaryLink, Input } from "./styled";
 
 import Home from "./Home";
 
@@ -16,7 +16,11 @@ class App extends Component {
   render() {
     return (
       <Root>
+        <Input type="text" placeholder="Name" />
+        <Input type="text" placeholder="Email" />
+        <Input type="text" placeholder="Name" />
         <SecondaryLink to="/home">Continue</SecondaryLink>
+
         <Route exact path="/home" component={Home} />
       </Root>
     );
@@ -32,4 +36,5 @@ const Root = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 0.5rem 2rem;
 `;
