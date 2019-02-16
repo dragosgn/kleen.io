@@ -5,27 +5,34 @@ import Calendar from "react-calendar";
 import { Header } from "./styled";
 import calendar from "./calendar.png";
 
+const Root = styled.div`
+  padding-left: 4rem;
+  padding-right: 4rem;
+`;
+
 export default () => (
   <React.Fragment>
     <Header />
-    <Calendar />
-    <Block>
-      <Notification>2 weeks Strike!</Notification>
-    </Block>
-    <IconRow>
-      <IconBox>
-        <img src={calendar} height={35} />
-        <Label>Appointments</Label>
-      </IconBox>
-      <IconBox>
-        <Icon className="far fa-calendar-check" />
-        <Label>Events</Label>
-      </IconBox>
-      <IconBox>
-        <Icon className="fas fa-chart-line" />
-        <Label>Progress</Label>
-      </IconBox>
-    </IconRow>
+    <Root>
+      <Calendar />
+      <Block>
+        <Notification>2 weeks Strike!</Notification>
+      </Block>
+      <IconRow>
+        <IconBox>
+          <img src={calendar} height={35} />
+          <Label>Appointments</Label>
+        </IconBox>
+        <IconBox>
+          <Icon className="far fa-calendar-check" />
+          <Label>Events</Label>
+        </IconBox>
+        <IconBox>
+          <Icon className="fas fa-chart-line" />
+          <Label>Progress</Label>
+        </IconBox>
+      </IconRow>
+    </Root>
   </React.Fragment>
 );
 const IconRow = styled.div`
