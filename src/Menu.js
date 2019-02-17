@@ -33,7 +33,7 @@ export default () => (
     <Link to="/community" style={{ position: "relative" }}>
       <Circle
         size={210}
-        style={{ position: "absolute", right: "-0.25rem", top: "14rem" }}
+        style={{ position: "absolute", right: "-0.25rem", top: "16rem" }}
       >
         <img src={friends} height={80} style={{ padding: "0rem" }} />
         <Label>Community</Label>
@@ -51,7 +51,7 @@ export default () => (
     <Link to="/help" style={{ position: "relative" }}>
       <Circle
         size={140}
-        style={{ position: "absolute", left: "4rem", top: "24rem" }}
+        style={{ position: "absolute", left: "4rem", top: "26rem" }}
       >
         <Label fontSize={25}>Help</Label>
       </Circle>
