@@ -55,14 +55,14 @@ class Chatroom extends React.Component {
           content: (
             <p>
               I have been succesfully managing my addiction for years with the
-              help of Clean.io!
+              help of Kleen.io!
             </p>
           ),
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
           username: "Alice Chen",
-          content: <p>Definitely! Sounds awesome!</p>,
+          content: <p>Sounds awesome!</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         }
       ]
