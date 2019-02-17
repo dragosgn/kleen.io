@@ -51,7 +51,7 @@ export default () => (
     <Link to="/help" style={{ position: "relative" }}>
       <Circle
         size={140}
-        style={{ position: "absolute", left: "4rem", top: "26rem" }}
+        style={{ position: "absolute", left: "4rem", top: "24rem" }}
       >
         <Label fontSize={25}>Help</Label>
       </Circle>
