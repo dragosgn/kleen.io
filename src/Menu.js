@@ -48,7 +48,7 @@ export default () => (
         <Label>Next Steps</Label>
       </Circle>
     </Link>
-    <Link to="/" style={{ position: "relative" }}>
+    <Link to="/help" style={{ position: "relative" }}>
       <Circle
         size={140}
         style={{ position: "absolute", left: "4rem", top: "24rem" }}

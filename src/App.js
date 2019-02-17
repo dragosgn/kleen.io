@@ -8,6 +8,7 @@ import Home from "./Home";
 import Calendar from "./Calendar";
 import Community from "./Community";
 import NextSteps from "./NextSteps";
+import Help from "./Help";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Route exact path="/menu" component={Menu} />
         <Route exact path="/community" component={Community} />
         <Route exact path="/next-steps" component={NextSteps} />
+        <Route exact path="/help" component={Help} />
       </Root>
     );
   }
