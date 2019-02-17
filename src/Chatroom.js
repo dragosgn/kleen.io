@@ -29,7 +29,7 @@ class Chatroom extends React.Component {
           username: "KevHs",
           content: (
             <p>
-              Did zou tried meditation, it really really helped me to get over
+              Did you tried meditation, it really really helped me to get over
               crisis moments. You can even book sessions spending kleenos :)
             </p>
           ),
