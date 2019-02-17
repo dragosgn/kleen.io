@@ -12,7 +12,7 @@ import nextSteps from "./next_steps.png";
 export default () => (
   <React.Fragment>
     <Header />
-    <Link to="/" style={{ position: "relative" }}>
+    <Link to="/wallet" style={{ position: "relative" }}>
       <Circle
         size={130}
         style={{ position: "absolute", left: "0rem", top: "-1.5rem" }}

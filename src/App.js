@@ -9,6 +9,7 @@ import Calendar from "./Calendar";
 import Community from "./Community";
 import NextSteps from "./NextSteps";
 import Help from "./Help";
+import Wallet from "./Wallet";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Route exact path="/community" component={Community} />
         <Route exact path="/next-steps" component={NextSteps} />
         <Route exact path="/help" component={Help} />
+        <Route exact path="/wallet" component={Wallet} />
       </Root>
     );
   }
