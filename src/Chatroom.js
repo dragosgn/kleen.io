@@ -22,7 +22,7 @@ class Chatroom extends React.Component {
         },
         {
           username: "Kevin Hsu",
-          content: <p>Check out our Github</p>,
+          content: <p>Stay strong</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
@@ -47,7 +47,12 @@ class Chatroom extends React.Component {
         },
         {
           username: "Kevin Hsu",
-          content: <p>I have been fighting!</p>,
+          content: (
+            <p>
+              I have been succesfully managing my addiction for years with the
+              help of Clean.io!
+            </p>
+          ),
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
