@@ -12,7 +12,12 @@ class Chatroom extends React.Component {
       chats: [
         {
           username: "Kevin Hsu",
-          content: <p>Hello from the Community!</p>,
+          content: (
+            <p>
+              It’s gonna get harder before it gets easier. But it will get
+              better, you just gotta make it through the hard stuff first.
+            </p>
+          ),
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
@@ -22,7 +27,7 @@ class Chatroom extends React.Component {
         },
         {
           username: "Kevin Hsu",
-          content: <p>Stay strong</p>,
+          content: <p>Stay strong!</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
