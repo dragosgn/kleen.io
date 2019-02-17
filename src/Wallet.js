@@ -92,7 +92,7 @@ export default () => (
       <Divider />
       <RenderLabel label="Volunteering" color="#665EFF" amount="33" />
     </Block>
-    <SecondaryLink to="/menu">Continue</SecondaryLink>
+    {/* <SecondaryLink to="/menu">Continue</SecondaryLink> */}
   </React.Fragment>
 );
 
