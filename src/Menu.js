@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { Icon, Header } from "./styled";
+import { Header } from "./styled";
 
 import calendar from "./calendar.png"; // Tell Webpack this JS file uses this image
 import friends from "./friends.png";
@@ -12,46 +12,50 @@ import nextSteps from "./next_steps.png";
 export default () => (
   <React.Fragment>
     <Header />
-    <Circle
-      size={130}
-      style={{ position: "absolute", right: "0.75rem", top: "9rem" }}
-    >
-      <img src={coins} height={55} style={{ padding: "0.5rem" }} />{" "}
-      <Label fontSize={20}>150</Label>
-    </Circle>
-    <Link to="/calendar">
+    <Link to="/" style={{ position: "relative" }}>
+      <Circle
+        size={130}
+        style={{ position: "absolute", left: "0rem", top: "-1.5rem" }}
+      >
+        <img src={coins} height={55} style={{ padding: "0.5rem" }} />{" "}
+        <Label fontSize={20}>150</Label>
+      </Circle>
+    </Link>
+    <Link to="/calendar" style={{ position: "relative" }}>
       <Circle
         size={170}
-        style={{ position: "absolute", left: "-0.5rem", top: "12rem" }}
+        style={{ position: "absolute", right: "2rem", top: "1rem" }}
       >
         <img src={calendar} height={45} style={{ padding: "0.5rem" }} />
         <Label fontSize={23}>Calendar</Label>
       </Circle>
     </Link>
-    <Link to="/community">
+    <Link to="/community" style={{ position: "relative" }}>
       <Circle
         size={210}
-        style={{ position: "absolute", left: "-1.5rem", bottom: "2rem" }}
+        style={{ position: "absolute", right: "-0.25rem", top: "14rem" }}
       >
         <img src={friends} height={80} style={{ padding: "0rem" }} />
         <Label>Community</Label>
       </Circle>
     </Link>
-    <Link to="/next-steps">
+    <Link to="/next-steps" style={{ position: "relative" }}>
       <Circle
         size={230}
-        style={{ position: "absolute", right: "-2.5rem", bottom: "9rem" }}
+        style={{ position: "absolute", left: "0rem", top: "7.5rem" }}
       >
         <img src={nextSteps} height={80} />
         <Label>Next Steps</Label>
       </Circle>
     </Link>
-    <Circle
-      size={140}
-      style={{ position: "absolute", right: "-0.75rem", bottom: "-1.5rem" }}
-    >
-      <Label fontSize={25}>Help</Label>
-    </Circle>
+    <Link to="/" style={{ position: "relative" }}>
+      <Circle
+        size={140}
+        style={{ position: "absolute", left: "4rem", top: "24rem" }}
+      >
+        <Label fontSize={25}>Help</Label>
+      </Circle>
+    </Link>
   </React.Fragment>
 );
 
