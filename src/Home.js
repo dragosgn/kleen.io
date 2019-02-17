@@ -17,9 +17,9 @@ export default () => (
         <SmallLabel>Sign in</SmallLabel>
       </SmallButton>
     </SecButtonsRow>
-    <Input type="text" placeholder="Name" />
-    <Input type="text" placeholder="Email" />
-    <Input type="password" placeholder="Password" />
+    <Input type="text" placeholder="Name" value="David Mueller" />
+    <Input type="text" placeholder="Email" value="david.mueller@gmx.com" />
+    <Input type="password" placeholder="Password" value="12342342345" />
     <SecondaryLink to="/menu">Continue</SecondaryLink>
   </React.Fragment>
 );
@@ -31,7 +31,7 @@ const SecButtonsRow = styled.div`
 `;
 
 const SmallButton = styled.button`
-  width: 73px;
+  width: 80px;
   height: 30.9px;
   border-radius: 13px;
   background-color: ${props => props.theme.primaryColor};
@@ -41,7 +41,7 @@ const SmallButton = styled.button`
 `;
 
 const SmallButtonWhite = styled.button`
-  width: 73px;
+  width: 80px;
   height: 30.9px;
   border-radius: 13px;
   display: flex;
@@ -51,7 +51,7 @@ const SmallButtonWhite = styled.button`
 `;
 
 const SmallLabel = styled.div`
-  width: 51px;
+  width: 100%;
   height: 13px;
   font-size: 12px;
   font-weight: 300;
@@ -66,7 +66,7 @@ const SmallLabel = styled.div`
 `;
 
 const SmallLabelWhite = styled.div`
-  width: 46px;
+  width: 100%;
   height: 12px;
   font-size: 12px;
   font-weight: 300;
@@ -76,4 +76,5 @@ const SmallLabelWhite = styled.div`
   letter-spacing: 0.3px;
   text-align: left;
   color: #78849e;
+  text-transform: uppercase;
 `;
