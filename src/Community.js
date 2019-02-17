@@ -16,18 +16,21 @@ export default () => (
         style={{ position: "absolute", left: "2rem", top: "10rem" }}
       >
         <img src={message} height={70} style={{ padding: "0rem" }} />
+        <Label>Messages</Label>
       </Circle>
       <Circle
         size={210}
         style={{ position: "absolute", right: "-1.5rem", bottom: "10rem" }}
       >
         <img src={lotus} height={90} style={{ padding: "0rem" }} />
+        <Label>Meditation</Label>
       </Circle>
       <Circle
         size={250}
         style={{ position: "absolute", left: "-1.5rem", bottom: "-1rem" }}
       >
         <img src={volunteer} height={100} style={{ padding: "0rem" }} />
+        <Label>Get Engaged</Label>
       </Circle>
     </Root>
   </React.Fragment>
@@ -65,6 +68,6 @@ const Label = styled.div`
   line-height: 1.6;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: ${props => props.theme.secondaryColor};
   position: relative;
 `;
