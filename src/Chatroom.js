@@ -12,7 +12,7 @@ class Chatroom extends React.Component {
       chats: [
         {
           username: "Kevin Hsu",
-          content: <p>Hello World!</p>,
+          content: <p>Hello from the Community!</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
@@ -22,16 +22,15 @@ class Chatroom extends React.Component {
         },
         {
           username: "Kevin Hsu",
-          content: <p>Check out my Github at https://github.com/WigoHunter</p>,
+          content: <p>Check out our Github</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
           username: "KevHs",
           content: (
             <p>
-              Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos
-              incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam,
-              nulla vitae est bibendum molestie elit risus.
+              Did zou tried meditation, it really really helped me to get over
+              crisis moments. You can even book sessions spending kleenos :)
             </p>
           ),
           img: "http://i.imgur.com/ARbQZix.jpg"
@@ -43,22 +42,17 @@ class Chatroom extends React.Component {
         },
         {
           username: "Kevin Hsu",
-          content: (
-            <p>
-              Chilltime is going to be an app for you to view videos with
-              friends
-            </p>
-          ),
+          content: <p>Kleen.io the best app to fight addiction</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
           username: "Kevin Hsu",
-          content: <p>You can sign-up now to try out our private beta!</p>,
+          content: <p>I have been fighting!</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         },
         {
           username: "Alice Chen",
-          content: <p>Definitely! Sounds great!</p>,
+          content: <p>Definitely! Sounds awesome!</p>,
           img: "http://i.imgur.com/Tj5DGiO.jpg"
         }
       ]
