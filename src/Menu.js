@@ -53,7 +53,7 @@ export default () => (
         size={140}
         style={{ position: "absolute", left: "4rem", top: "24rem" }}
       >
-        <Label fontSize={25}>Help</Label>
+        <Label fontSize={25}>Feed</Label>
       </Circle>
     </Link>
   </React.Fragment>
